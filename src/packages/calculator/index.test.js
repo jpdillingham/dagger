@@ -1,4 +1,4 @@
-const shared = require('../shared');
+const shared = require('.');
 
 describe('shared', () => {
   describe('add', () => {

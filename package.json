@@ -1,0 +1,22 @@
+{
+  "name": "dagger",
+  "version": "1.0.0",
+  "description": "Testing Dagger (dagger.io)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpdillingham/dagger.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpdillingham/dagger/issues"
+  },
+  "homepage": "https://github.com/jpdillingham/dagger#readme",
+  "devDependencies": {
+    "jest": "^28.1.2"
+  }
+}
