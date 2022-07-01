@@ -1,7 +1,7 @@
 const request = require("supertest");
 const app = require("./server");
 
-describe('red', () => {
+describe('blue', () => {
   describe("/", () => {
     test("GET", () => {
       return request(app)
