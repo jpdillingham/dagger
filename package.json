@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Testing Dagger (dagger.io)",
   "main": "index.js",
+  "workspaces": [
+    "./src/packages/*",
+    "./src/apps/*"
+  ],
   "scripts": {
     "test": "jest"
   },
