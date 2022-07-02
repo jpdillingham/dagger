@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "deploy:red": "pnpm --filter red deploy dist/red",
-    "deploy:blue": "pnpm --filter blue deploy dist/blue",
-    "deploy:green": "pnpm --filter green deploy dist/green"
+    "clean:deploy": "rm -rf dist",
+    "deploy:red": "pnpm --filter red deploy dist/apps/_red",
+    "deploy:blue": "pnpm --filter blue deploy dist/apps/_blue",
+    "deploy:green": "pnpm --filter green deploy dist/apps/_green"
   },
   "repository": {
     "type": "git",
